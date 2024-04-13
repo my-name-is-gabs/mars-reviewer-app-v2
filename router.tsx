@@ -6,7 +6,8 @@ import UserLayout from './src/views/layouts/UserLayout'
 import Homepage from './src/views/user/Homepage'
 import CreateReviewer from './src/views/user/CreateReviewer'
 import Reviewer from './src/views/user/Reviewer'
-import ReviewerTest from './src/views/user/ReviewerTest'
+import TestSession from './src/views/user/TestSession'
+import TestResult from './src/views/user/TestResult'
 
 const router = createBrowserRouter([
   {
@@ -41,7 +42,11 @@ const router = createBrowserRouter([
       },
       {
         path: '/:username/prac-test',
-        element: <ReviewerTest />,
+        element: <TestSession />,
+      },
+      {
+        path: '/:username/result',
+        element: <TestResult />,
       },
     ],
   },

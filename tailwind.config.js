@@ -24,6 +24,7 @@ export default {
         danger: '#C42727',
         info: '#3B63B8',
         success: '#0F6401',
+        darkInfo: '#141C3A',
       },
       fill: {
         primary: '#572f77',
